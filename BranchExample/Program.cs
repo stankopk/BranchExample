@@ -8,6 +8,12 @@ namespace BranchExample
 {
     internal class Program
     {
+
+        static int Sum(int a, int b)
+        {
+            return a + b;
+        }
+
         static void Main(string[] args)
         {
             int a = 5;
