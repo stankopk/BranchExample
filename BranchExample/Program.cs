@@ -14,6 +14,18 @@ namespace BranchExample
             return a + b;
         }
 
+        static int GreaterNumber(int a, int b)
+        {
+            if(a > b)
+            {
+                return a;
+            }
+            else
+            {
+                return b;
+            }   
+        }
+
         static void Main(string[] args)
         {
             int a = 5;
