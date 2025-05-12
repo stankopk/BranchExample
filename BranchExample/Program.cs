@@ -8,6 +8,12 @@ namespace BranchExample
 {
     internal class Program
     {
+
+        static int Sum(int a, int b)
+        {
+            return a + b;
+        }
+
         static int GreaterNumber(int a, int b)
         {
             if(a > b)
